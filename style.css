@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+}
+
+.header-title{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    background: linear-gradient(rgba(0,7.05,0.5), rgba(0,7.05,0.5));
+}
+
+.logo {
+    color: red;
+    width: 200px;
+    border: 1px solid;
+    margin: 30px 100px;
+    padding: 5px;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    transition: all 400ms ease;
+}
+
+li{
+list-style: none;
+text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(189, 139, 139);
+}
+
+
+ a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn{
+    color: red;
+    padding: 0.3rem;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+    gap: 1.7rem;
+    font-size: 25px;
+    color: wheat; 
+    
+}
+.hero-btn{
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+    padding: 10px 8px;
+    border-radius: 20px;
+    transition: all 400ms ease;
+}
+.hero-btn:hover{
+    background-color:transparent;
+    color: black;
+    
+}
